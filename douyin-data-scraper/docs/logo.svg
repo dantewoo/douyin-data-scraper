@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FE2C55;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#25F4EE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#bg)"/>
+  <!-- 抖音音符图标简化版 -->
+  <g transform="translate(24, 16)">
+    <!-- 主体 -->
+    <path d="M48 8 C48 8 48 56 48 56 C48 68 38 78 26 78 C14 78 4 68 4 56 C4 44 14 34 26 34 C30 34 34 35 37 37 L37 8 Z" fill="white" opacity="0.95"/>
+    <!-- 抖动效果1 -->
+    <path d="M52 8 C52 8 52 56 52 56 C52 68 42 78 30 78 C18 78 8 68 8 56 C8 44 18 34 30 34 C34 34 38 35 41 37 L41 8 Z" fill="#25F4EE" opacity="0.5" transform="translate(3, -3)"/>
+    <!-- 抖动效果2 -->
+    <path d="M44 8 C44 8 44 56 44 56 C44 68 34 78 22 78 C10 78 0 68 0 56 C0 44 10 34 22 34 C26 34 30 35 33 37 L33 8 Z" fill="#FE2C55" opacity="0.5" transform="translate(-3, 3)"/>
+  </g>
+  <!-- 数据符号 -->
+  <g transform="translate(80, 80)" fill="white" opacity="0.9">
+    <rect x="0" y="8" width="6" height="16" rx="2"/>
+    <rect x="9" y="0" width="6" height="24" rx="2"/>
+    <rect x="18" y="5" width="6" height="19" rx="2"/>
+  </g>
+</svg>
